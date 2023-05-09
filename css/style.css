@@ -1,0 +1,96 @@
+:root{
+    --color1: #157d0a;
+}
+.color1{
+    color: var(--color1)
+}
+header, footer, section, .c {
+    padding: 30px 0;
+}
+header{
+    padding: 0 0;
+    height: 750px;
+    background-image: url(../images/p.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+.text-center{
+    text-align: center!important
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-uppercase{
+    text-transform: uppercase!important
+}
+.border-r{
+	border-right: 3px solid #15760a;
+	padding-left: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu li{
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: auto;
+}
+.menu{
+    float: right;
+    margin-right: auto;
+}
+.logo{
+    padding: 10px 30px;
+    text-align: left;
+    margin-top: auto;
+    margin-left: auto;
+}
+.forms{
+    background-image: url(../images/Заб.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+#footer{
+    background-color: #161a1e;
+    background-size: 100%;
+    color: #e6e6e6;
+}
+.contacts{
+    text-align: right;
+}
+.indent{
+    margin-top: 50px;
+    text-shadow: 3px 3px 3px #000;
+}
+.ind-top{
+    margin-top: 30px;
+}
+.indents{
+    margin-top: 90px;
+}
+.indent-bottom{
+    margin-bottom: 30px;
+}
+.indentform{
+    margin-left: 33%;
+}
+.up{
+    border: 2px solid #000;
+    background:#fff;
+    padding: 15px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+    vertical-align: middle;
+}
